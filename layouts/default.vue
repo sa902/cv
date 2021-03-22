@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app dark :style="{background: '#F1FAEE'}">
 
     <v-main>
 
@@ -8,9 +8,10 @@
 
     <v-footer
       :absolute="!fixed"
+      :style="{background: '#457B9D'}"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&nbsp</span>
     </v-footer>
   </v-app>
 </template>

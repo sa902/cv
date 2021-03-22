@@ -4,11 +4,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: true,
-  
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - CV',
-    title: 'CV',
+    title: 'Sam Anderson',
     htmlAttrs: {
       lang: 'en'
     },
@@ -46,6 +46,7 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    treeShake:true,
     theme: {
       dark: false,
       test: true,
