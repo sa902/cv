@@ -85,8 +85,8 @@
       </div>
       <v-divider></v-divider>
 
-      <v-list dense flat color="#F1FAEE">
-        <v-list-item v-for="skill in skills">
+      <v-list dense flat color="#F1FAEE" class="">
+        <v-list-item v-for="skill in skills" class="pb-3">
         <v-col color="#F1FAEE" cols="2" >
 
           <v-list-tile-title class="d-flex pr-5">
@@ -100,10 +100,10 @@
           <v-sheet color="#F1FAEE" elevation="0" height="100%" width="100%" class="pl-5">
 
             <v-progress-linear
-            background-color="#F1FAEE"
-            color="#457B9D"
+            background-color="#457B9D"
+            color="#1d3557"
             height="15"
-            striped
+
             :value="skill.level"
             ></v-progress-linear>
            </v-sheet>
@@ -179,19 +179,31 @@ export default {
     `,
     skills: [
       {
-        title:"Vue JS",
-        level:15
+        title:"Python",
+        level:85
       },
       {
         title:"Java",
-        level:20
+        level:80
+      },
+      {
+        title:"git",
+        level:80
       },
       {
         title:"html",
-        level:20
+        level:75
       },
       {
-        title:"Python",
+        title:"Vue JS",
+        level:70
+      },
+      {
+        title:"GraphQL",
+        level: 55
+      },
+      {
+        title:"NodeJS",
         level:50
       },
       {
@@ -199,17 +211,10 @@ export default {
         level:50
       },
       {
-        title:"Skill",
-        level:50
+        title:"Docker",
+        level:45
       },
-      {
-        title:"Skill",
-        level:50
-      },
-      {
-        title:"Skill",
-        level:50
-      },
+
     ],
     jobs : [
       {
@@ -219,8 +224,9 @@ export default {
         color:"purple",
         desc:"",
         items:[
-    "Plan and deliver effective 1-to-1 programming lessons in a range of languages",
-    "Create and maintain an effective syllabus - creating programming excercises",
+        "Plan and deliver effective 1-to-1 programming lessons in a range of languages",
+        "Create, maintain and manage delivery of an effective syllabus",
+        "Plan and deliver effective 1-to-1 computer science lessons"
 
 
         ],
@@ -287,10 +293,7 @@ export default {
     ]
 
   }),
-  components: {
-    // Logo,
-    VuetifyLogo
-  }
+
 }
 </script>
 
