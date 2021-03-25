@@ -187,6 +187,10 @@ export default {
         level:80
       },
       {
+        title:"Vuex",
+        level:70
+      },
+      {
         title:"git",
         level:80
       },
@@ -204,10 +208,6 @@ export default {
       },
       {
         title:"NodeJS",
-        level:50
-      },
-      {
-        title:"Google Cloud Platform",
         level:50
       },
       {
@@ -256,7 +256,7 @@ export default {
         items:[
           "Back end / Architecture role.",
 "Java EE / Spring Boot / Docker /  Payara Web server",
-"Redsigned installer to use docker.",
+"Redesigned  installer to use docker.",
 "Created a new front end and updated existing backend to fit user requirements.",
 "Led a team to create a voting system using microservice design pattern.",
 ],
@@ -284,7 +284,7 @@ export default {
         desc:"",
         items:[
           "Worked in the integrations team providing custom API's allowing bidirectional communication between multiple products",
-          "Liased with the AI department to realise conceptual AI designs",
+          "liaised  with the AI department to realise conceptual AI designs",
           "Worked closely with customers to implement bespoke solutions"
         ],
         id:4
