@@ -70,7 +70,7 @@
                 <div class="overline pl-8">
                   BSc (Hons) 2:1
                 </div>
-                <v-list-item-subtitle class="pl-8">Focusing on Computer Vision, AI and ML with a dissertation in Image forgery detection</v-list-item-subtitle>
+                <v-list-item-subtitle class="pl-8">Focusing on Computer Vision, AI and ML</v-list-item-subtitle>
               </v-list-item-content>
 
 
@@ -87,7 +87,7 @@
 
       <v-list dense flat color="#F1FAEE" class="">
         <v-list-item v-for="skill in skills" class="pb-3">
-        <v-col color="#F1FAEE" cols="2" >
+        <v-col color="#F1FAEE" cols="3" >
 
           <v-list-tile-title class="d-flex pr-5">
           {{skill.title}}
@@ -179,28 +179,24 @@ export default {
     `,
     skills: [
       {
-        title:"Python",
-        level:85
-      },
-      {
         title:"Java",
         level:80
       },
       {
-        title:"Vuex",
-        level:70
-      },
-      {
-        title:"git",
+        title:"Git",
         level:80
       },
       {
-        title:"html",
-        level:75
+        title:"SQL",
+        level: 70
       },
       {
         title:"Vue JS",
         level:70
+      },
+      {
+        title:"Vuex",
+        level:65
       },
       {
         title:"GraphQL",
@@ -212,7 +208,7 @@ export default {
       },
       {
         title:"Docker",
-        level:45
+        level:40
       },
 
     ],

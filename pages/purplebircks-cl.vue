@@ -39,14 +39,14 @@
         Dear Sir/Madam,
       </h3>
       <br><br>
-        This letter is to express my interest in your Software integrations Engineer role.
+        This letter is to express my interest in your Frontend Developer role.
         With a bachelors in Computer Science, my hands on experience as a backend engineer and
-        my recent experience developing JAMStack web apps using Vue.js, GraphQL/Firebase and Strapi for some API's
-            I believe I will be an asset to your company.
+        my recent experience developing JAMStack web apps using Vue.js, Vuex for statement management and node.js.
+        With these skills I believe I will be an asset to your company.
 
         <br> <br>
 I enjoy being challenged and working with projects that allow me to expand my knowledge and increase my skillset.
-During the lockdown I have learned Vue.JS and launched a couple of companies that use the language. I would like to expand my knowledge in a professional environment.
+Having used Vue.JS to develop some projects over the lockdown period I would like to expand my knowledge in a professional environment.
 <br><br>
 Your listed requirements match my background and skills. A few I would like to highlight are:
 <v-list dense flat color="rgba(0,0,0,0)" class="pa-0 ma-0 text--black">
@@ -86,40 +86,29 @@ export default {
   data : () =>({
     items  : [
       {
-        title:"Java",
-        content:`This was the main language used in my past two developer roles. At Moogsoft we used Java 8 and Squidcard Java EE with springboot.
-        Gradle was used at moogsoft and Maven at squidcard
-        With a license, Intellij is my preffered IDE. In the meantime I settle for Atom.
-        In terms of testing I have used JUnit, Mockito and PowerMock
-         `
-      },
-
-      {
-        title:"API Usage",
-        content:`REST is ubiquitous on the web and I have most recently used it with Firebase and Strapi.
-        I have used SOAP and STOMP to consume data from Network Rail. This was a project to calculate liklihood of a delayed train
-        and ability to claim a refund!
-        `
-      },
-      {
-        title:"SQL and NoSQL",
-        content:"At squidcard and moogsoft I used SQL databases. For my own projects and I use google firebase and GraphQL. "
-      },
-
+        title:"HTML5, CSS3, SASS:",
+        content:"The foundation of the web and the first stack of languages I learned. I started my developing career as the web transitioned from HTML4 to HTML 5. As such it is a staple in my arsenal."
+},
+{
+  title:"Javascript ES6:",
+  content:"This was the language I used to create integrations between Moogsoft AIOPS and external applications."
+},
 {
   title:"Docker",
   content:"While at SquidCard I re-designed the installer to provide a containerized solution."
 },
 {
   title:"Git",
-  content:"I use git cli to manage my work and projects. I host a couple of sites on github pages!"
+  content:"I use git cli to manage my work and side projects."
 },
-
 {
-  title:"Python:",
-  content:"I regularly complete coding challenges on codewars and project eular. I also mainly tutor with python"
+  title:"Vuex:",
+  content:"Vue has been my main language during the lockdown period. I have made a few interesting projects utilizing firebase for user auth on static sites, strapi (with GraphQL) for content management and providing API endpoints."
 },
-
+{
+  title:"Vue.JS:",
+  content:"To control login status of users!"
+}
 
 
     ]
