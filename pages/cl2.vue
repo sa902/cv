@@ -39,15 +39,18 @@
         Dear Sir/Madam,
       </h3>
       <br><br>
-        This letter is to express my interest in your Associate Digital Tutor role.
+        This letter is to express my interest in your Front End developer Role.
         With a bachelors in Computer Science, my hands on experience as a backend engineer and
-        my experience as a classroom tutor and private tutor
+        my experience as a classroom teacher/private tutor
             I believe I will be an asset to your company.
 
         <br> <br>
-I have a passion teaching and passing my knowledge on to the next generation of programmers.
-I feel a great sense of pride in my students when they understand a new topic and complete a complex programming problem.
-I believe that knowledge about tech should be open to all.
+I have a passion for all things tech. From programming to hardware to teaching.
+Over the lockdown period I have been working part time as a programming tutor. As a side project I have been learning Vue and node to build a virtual learning
+environment!
+I have used Vue, Vuex, Vuetify for the front end and Strapi (a headless CMS in node.js) to provide my backend.
+I have enjoyed learning front end tech and I am looking for an oppurtinity to pivot away from a backend engineer role and expand my front end skills.
+
 <br><br>
 Your listed requirements match my background and skills. A few I would like to highlight are:
 <v-list dense flat color="rgba(0,0,0,0)" class="pa-0 ma-0 text--black">
@@ -87,23 +90,33 @@ export default {
   data : () =>({
     items  : [
       {
-        title:"Java",
-        content:`This was the main language used in my past two developer roles. At Moogsoft we used Java 8 and Squidcard Java EE with springboot.
-        Gradle was used at moogsoft and Maven at squidcard
-        With a license, Intellij is my preffered IDE. In the meantime I settle for Atom.
-        In terms of testing I have used JUnit, Mockito and PowerMock
-         `
+        title:"Back End experience",
+        content:
+        `I have worked professionally as a backend engineer using Java (And when required JS) and use Node.js for personal passion projects.
+        I've taken a liking to Strapi, it handles all my APIs and data base for me as well as providing an easy to use login portal for customers.
+
+        `
       },
       {
-        title:"Python:",
-        content:`
-        Python was the first language I learned and I have used it for many years both
-        professionally and personally.
-        I have used it at my
-        \n
-        I regularly complete coding challenges on codewars and project eular.
-        I also mainly tutor with python`
+        title:"EdTech experience",
+        content: `
+        During lockdown I have been working as programming tutor. This has given me experience in a teaching environment and an
+        understanding of the pupil's perspective.
+        `
       },
+
+      {
+        title:"Vue",
+        content:
+        `Vue has been my main language during the lockdown period.
+        I have made a couple of interesting projects lockdown. One is a site for a magazine aimed at artists in the Liverpool area
+        The other is my own programming with a learning environment that hosts lesson files, quizzes and tracks a student's learning progress.
+        Additionally, this CV is written in Vue!
+        `
+
+},
+
+
 //
 //       {
 //         title:"API Usage",
@@ -112,11 +125,11 @@ export default {
 //         and ability to claim a refund!
 //         `
 //       },
-//       {
-//         title:"SQL and NoSQL",
-//         content:"At squidcard and moogsoft I used SQL databases. For my own projects and I use google firebase and GraphQL. "
-//       },
-//
+      {
+        title:"SQL and NoSQL",
+        content:"At Squidcard and Moogsoft I used SQL databases. For my own projects and I use google firebase or Strapi with GraphQL. "
+      },
+
 // {
 //   title:"Docker",
 //   content:"While at SquidCard I re-designed the installer to provide a containerized solution."

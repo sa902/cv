@@ -183,6 +183,10 @@ export default {
         level:80
       },
       {
+        title:"Python",
+        level:80
+      },
+      {
         title:"Git",
         level:80
       },
