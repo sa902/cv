@@ -5,7 +5,11 @@ export default {
   target: 'static',
   ssr: true,
   router: {
-  base: '/cv/'
+  base: '/cv/' // for github! must match github name. 
+},
+server :{
+  host : '0.0.0.0',
+  port:3000
 },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
