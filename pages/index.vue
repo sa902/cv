@@ -2,7 +2,7 @@
   <div class="">
 
      <!-- header -->
-  <v-sheet class="fill-height ma-0 pa-0" color="#457B9D" elevation="0" height="280px" width="100%" >
+  <v-sheet class="fill-height ma-0 pa-0" color="#457B9D" elevation="0" height="230px" width="100%" >
     <v-container fill-height align="center" justify="center" >
       <v-row flat justify="center"  >
 
@@ -14,23 +14,17 @@
     </div>
 
   </v-row>
-  <v-row flat justify="center" >
+  <!-- <v-row flat justify="center" >
 
     <v-col class="d-flex justify-center " color="" >
       <v-list dark flat dense color="rgba(0,0,0,0)">
         <v-list-item color=""> <v-list-item-icon><v-icon color="">mdi-home</v-icon></v-list-item-icon>55 Oaklands, Chippenham, Wiltshire </v-list-item>
-        <!-- <v-list-item> <v-list-item-icon><v-icon>mdi-web</v-icon></v-list-item-icon>sa902.github.io </v-list-item> -->
         <v-list-item> <v-list-item-icon><v-icon>mdi-phone</v-icon></v-list-item-icon>07385242082 </v-list-item>
         <v-list-item> <v-list-item-icon><v-icon>mdi-email</v-icon></v-list-item-icon>samanderson902@gmail.com </v-list-item>
       </v-list>
      </v-col>
-     <!-- <v-col  cols="2"class="d-flex justify-start"  color="" >
-
-
-       <v-list dark flat dense color="rgba(0,0,0,0)">
-       </v-list>
-      </v-col> -->
-</v-row>
+ 
+</v-row> -->
   </v-container>
   </v-sheet>
  <!-- header -->
@@ -191,13 +185,14 @@ export default {
         level:80
       },
       {
+        title:"Vue JS",
+        level:80
+      },
+      {
         title:"SQL",
         level: 70
       },
-      {
-        title:"Vue JS",
-        level:70
-      },
+
       {
         title:"Vuex",
         level:65
@@ -218,15 +213,18 @@ export default {
     ],
     jobs : [
       {
-        title:"Lead Programming Tutor",
-        company:"CreateNext",
+        title:"Owner - Lead tutor",
+        company:"Apollo Tutoring",
         date:"19/07/2020-Present",
         color:"purple",
         desc:"",
         items:[
-        "Plan and deliver effective 1-to-1 programming lessons in a range of languages",
-        "Create, maintain and manage delivery of an effective syllabus",
-        "Plan and deliver effective 1-to-1 computer science lessons"
+          "Created a Tutoring company for children and adults to deliver 1-to-1 programming lessons in a range of languages",
+          "Created a website, log in portal and learning dashboard for students using Vue,Vuex, and NodeJS",
+          "Manage an online presence and deliver effective marketing",
+ 
+        // "Plan and deliver effective 1-to-1 programming lessons in a range of languages",
+        // "Plan and deliver effective 1-to-1 computer science lessons"
 
 
         ],
@@ -248,7 +246,7 @@ export default {
         id:1
       },
       {
-        title:"Software Dev",
+        title:"Software Developer",
         company:"SquidCard",
         date:"1/4/2019-1/7/2019",
         color:"red",
@@ -263,7 +261,7 @@ export default {
         id:2
       },
       {
-        title:"Freelance Dev",
+        title:"Freelance Developer",
         company:"",
         date: "25/11/2018 – 1/3/2019",
         color:"purple",
@@ -277,12 +275,13 @@ export default {
         id:3
       },
       {
-        title:"Software Dev",
+        title:"Software Developer",
         company:"Moogsoft",
-        date:"04/12/2017–31/10/2018",
+        date:"04/12/2017–30/10/2018",
         color:"red",
         desc:"",
         items:[
+          "JAva 8, JS ES6, JUnit, Powermock, Mockito, Git, Docker",
           "Worked in the integrations team providing custom API's allowing bidirectional communication between multiple products",
           "liaised  with the AI department to realise conceptual AI designs",
           "Worked closely with customers to implement bespoke solutions"
