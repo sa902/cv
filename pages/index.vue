@@ -2,19 +2,19 @@
   <div class="">
 
      <!-- header -->
-  <v-sheet class="fill-height ma-0 pa-0" color="#457B9D" elevation="0" height="230px" width="100%" >
+  <v-sheet class="fill-height ma-0 pa-0" color="#457B9D" elevation="0" height="280px" width="100%" >
     <v-container fill-height align="center" justify="center" >
       <v-row flat justify="center"  >
 
-    <div class="">
-      <p class="header-title ma-0 pa-0">
+    <div class="header-title ma-0 pa-0">
+      <!-- <p class=""> -->
         Sam Anderson
-      </p>
+      <!-- </p> -->
 
     </div>
 
   </v-row>
-  <!-- <v-row flat justify="center" >
+  <v-row flat justify="center" >
 
     <v-col class="d-flex justify-center " color="" >
       <v-list dark flat dense color="rgba(0,0,0,0)">
@@ -23,8 +23,8 @@
         <v-list-item> <v-list-item-icon><v-icon>mdi-email</v-icon></v-list-item-icon>samanderson902@gmail.com </v-list-item>
       </v-list>
      </v-col>
- 
-</v-row> -->
+
+</v-row>
   </v-container>
   </v-sheet>
  <!-- header -->
@@ -222,7 +222,7 @@ export default {
           "Created a Tutoring company for children and adults to deliver 1-to-1 programming lessons in a range of languages",
           "Created a website, log in portal and learning dashboard for students using Vue,Vuex, and NodeJS",
           "Manage an online presence and deliver effective marketing",
- 
+
         // "Plan and deliver effective 1-to-1 programming lessons in a range of languages",
         // "Plan and deliver effective 1-to-1 computer science lessons"
 
